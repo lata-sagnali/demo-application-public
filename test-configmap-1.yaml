@@ -2,8 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: test-configmap-1
-  labels:
-    app: hello-kubernetes
+  namespace: test
 data:
   age: '20'
   address: Pune
