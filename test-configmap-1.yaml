@@ -4,4 +4,4 @@ metadata:
   name: test-configmap-1
   namespace: test-reconcile
 data:
-  age: '20'
+  age: '22'
