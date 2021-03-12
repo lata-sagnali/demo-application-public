@@ -5,4 +5,3 @@ metadata:
   namespace: test
 data:
   age: '20'
-  address: Pune
