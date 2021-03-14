@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: test-configmap-1
-  namespace: test-reconcile
-data:
-  age: '22'
