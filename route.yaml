@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: hello-kubernetes-route
+  labels:
+    app: hello-kubernetes
+spec:
+  to:
+    kind: Service
+    name: hello-kubernetes-private
