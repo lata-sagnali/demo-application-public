@@ -8,3 +8,5 @@ spec:
   to:
     kind: Service
     name: hello-kubernetes-private
+    labels:
+      app: hello-kubernetes
